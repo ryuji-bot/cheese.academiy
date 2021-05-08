@@ -1,0 +1,749 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+*{
+	cursor: url(../images/cursor.jpg), auto;
+}
+
+
+body{
+	font-family: "Roboto","游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+	line-height: 1.75;
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*  */
+.header_box{
+	display: flex;
+	height: 400px;
+	background-image: url(../images/mainbg.png);
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	line-height: 40px;
+}
+
+.header_box h1{
+	font-size: 48px;
+	color:white;
+}
+
+.header_box p{
+	font-size: 36px;
+	color: white;
+}
+
+.nav_box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+	border: solid;
+	border-color:#efefef;
+}
+
+.nav_img{
+	width: 50%;
+	
+}
+
+.nav_list_ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 24px;
+	
+}
+
+.nav_list_ul li{
+	padding: 0 10px;
+}
+
+
+
+
+
+/*
+---------------------*/
+.body01 h2{
+	color: #ffd61a;
+	font-size: 24px;
+	text-align: center;
+	padding: 120px 24px 0 0;
+}
+
+.body01 p{
+	text-align: center;
+	line-height: 35px;
+}
+
+
+/*
+---------------------*/
+.body01 {
+	text-align: center;
+}
+
+/* 
+-------------------- */
+.about01{
+	margin-bottom: 64px;
+}
+
+/* 
+-------------------- */
+.about02{
+	margin-bottom: 40px;
+}
+
+
+/* 
+-------------------- */
+.about05{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+/* 
+-------------------- */
+.about07{
+	margin-bottom: 80px;
+}
+
+/* 
+-------------------- */
+.course_01_img h2{
+	background: url("../images/about-image.jpg") repeat-x;
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+	animation: bgloop 40s linear infinite;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@keyframes bgloop {
+  from {
+      background-position: 0 0 ;
+  }
+  to {
+      background-position: -300% 0; /*-1000px部分は画像の横幅と同じ数値 */
+  }
+}
+
+
+.course_01 h2,p{
+	text-align: center;
+}	
+
+.course_01 h2{
+	font-size: 24px;
+	color: #222222;
+}
+
+
+/* 
+-------------------- */
+.course_02{
+	display: flex;
+	padding: 64px 0 0 0;
+	text-align: center;
+}
+
+.course_02_img{
+	width: 50%;
+} 
+
+.course_02_img img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+} 
+
+.course_02_text{
+    width: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.course_02_text p{
+	text-align: left;
+}
+
+.course_02_text div{
+    width: 85%;
+}
+
+
+/* 
+-------------------- */
+.course_02_text{
+	background-color: lightgray;
+}
+
+
+
+
+
+/* 
+-------------------- */
+.course_03{
+	display: flex;
+	text-align: center;
+}
+
+
+/* 
+-------------------- */
+.course_03_img{
+	width: 50%;
+} 
+
+.course_03_img img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+} 
+
+.course_03_text{
+    width: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.course_03_text p{
+	text-align: left;
+}
+
+
+.course_03_text div{
+    width: 85%;
+}
+
+
+/* 
+-------------------- */
+.course_03_text{
+	background-color: lightgray;
+}
+
+
+
+
+/* 
+-------------------- */
+
+
+/* 
+-------------------- */
+.course_04{
+	display: flex;
+	text-align: center;
+	
+	
+}
+
+
+/* 
+-------------------- */
+.course_04_img{
+	width: 50%;
+} 
+
+.course_04_img img{
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+} 
+
+.course_04_text{
+    width: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+
+.course_04_text div{
+    width: 85%;
+}
+
+
+/* 
+-------------------- */
+.course_04_text{
+	background-color: lightgray;
+	
+}
+
+.course_04_text p{
+	text-align: left;
+}
+
+
+
+/* 
+-------------------- */
+.news_wrap h2{
+	margin: 64px 0 0 0;
+	text-align: center;
+}
+
+.news_wrap p{
+	margin: 32px auto;
+	text-align: center;
+}
+
+.news{
+	display: flex;
+
+}
+
+.news_01{
+	display: flex;
+}
+
+.news_img_01 img{
+	width: 220px;
+	margin: 0 32px 0 64px;
+}
+
+.news_text_01 dl{
+	width: 220px;
+	margin: auto 64px;
+
+}
+
+.news_02{
+	display: flex;
+}
+
+.news_img_02 img{
+	width: 220px;
+	margin: 0 32px ;
+}
+
+.news_text_02 dl{
+	width: 220px;
+	margin: auto 32px;
+}
+
+.news_03{
+	display: flex;
+}
+
+.news_img_03 img{
+	width: 220px;
+	margin: 0 32px 0 64px;
+}
+
+.news_text_03 dl{
+	width: 220px;
+	margin: auto 64px;
+
+}
+
+
+
+
+
+.button a {
+	width: 200px;
+	background-color :black;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 rgba(0,0,0,0.3);
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px auto;
+	padding: 10px 0;
+}
+	
+.button a:hover {
+	box-shadow: 0 1px 0 rgba(136,136,136,1);
+	margin: 12px auto 8px;
+}
+
+.Access {
+	text-align: center;
+}
+
+.Access h2{
+	margin:112px 0 24px 0;
+}
+
+iframe{
+	margin-bottom: 24px;
+}
+
+.Access_text_table{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 40px;
+}
+
+ .Access_text_table_p{
+   text-align: left;
+ }
+
+
+
+.info_text{
+	text-align: center;
+}
+
+.info h2{
+	padding:112px 0 24px 0;
+}
+
+.info_text p{
+	display: inline-block;
+	text-align: left;
+	margin: 0 0 0 0;
+}
+
+
+/* 
+-------------------- */
+
+.contact_h2{
+	text-align: center;
+	margin:112px 0 0px 0;
+	
+}
+
+.contact_p1{
+	margin: 40px auto 0 auto;
+}
+
+.contact_p2{
+	margin: 32px 0 0 0;
+}
+
+.contact_p3{
+	margin: 0 0 100px 0;
+}
+
+
+/* */
+/*  */
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+label{
+  display:block;
+  position:relative;
+  padding-left:4em;
+}
+
+label input{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:3em;
+  margin:auto;
+}
+
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Form-Btn{
+	width: 200px;
+	background-color :#5bc8ac;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 #5bc8ac;
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px auto;
+	padding: 10px 0;
+}
+	
+.Form-Btn:hover {
+	box-shadow: 0 1px 0 rgba(136,136,136,1);
+	margin: 12px auto 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+
+
+/* 
+-------------------- */
+
+small{
+	color: white;
+	font-size: 18px;
+	background-color: #707070;
+	display: block;
+	text-align: center;
+	height: 60px;
+	line-height:60px;
+	margin-top: 150px;
+}
+
+
+
+
+/* 
+-------------------- */
+/* ボタンのスタイル */
+.page-top {
+  /* buttonタグのリセットCSS */
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+
+  /* ボタンの装飾 */
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #115582;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* 矢印のスタイル */
+.page-top::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  margin-bottom: -6px;
+  border-top: solid 3px #fff;
+  border-right: solid 3px #fff;
+  transform: rotate(-45deg);
+}
+
+/* ホバー時のスタイル */
+.page-top:hover {
+  transform: scale(1.1);
+}
+
+
+
+/*  */
+/*  */
+
+.fadeIn {
+    transition: 1s;
+    opacity: 0;
+}
+
+.fadeIn.animated {
+    opacity: 1;
+}

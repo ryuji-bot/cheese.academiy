@@ -1,0 +1,392 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+body{
+	font-family: "Roboto","游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+	line-height: 1.75;
+	width: 960px;
+}
+
+
+
+/*
+---------------------*/
+/* .header01{
+	background-image: url("../images/mainbg.png");
+	background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;	
+	
+}
+
+/*
+---------------------*/
+/* .header01 h1{
+	font-size: 48px;
+	color: white;
+	padding: 40;
+	text-align: center; */
+/* }  */
+
+
+/*
+---------------------*/
+
+/* .header01 p{
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}  */
+
+
+
+
+
+/* 
+---------------------*/
+/* li{
+	display:inline-block;
+	padding: 10px;
+} */
+
+
+/*
+---------------------*/
+/* ul{
+	margin: 80 0 120 120;
+	float: right;
+	font-size: 24px;
+	
+} */
+
+
+/*
+---------------------*/
+/* .nav_img{
+	padding:0 0 60px 0;
+	height: 100px;
+	width: 400px;
+} */
+
+
+/* 
+---------------------*/
+.header_top{
+	display: flex;
+	background-image:url("/images/mainbg.png");
+}
+
+
+
+
+
+
+/*
+---------------------*/
+.body01 h2{
+	color: #ffd61a;
+	font-size: 24px;
+	text-align: center;
+	padding: 120px 24px 0 0;
+}
+
+.body01 p{
+	text-align: center;
+	line-height: 35px;
+}
+
+
+/*
+---------------------*/
+.body01 {
+	text-align: center;
+}
+
+/* 
+-------------------- */
+.about01{
+	margin-bottom: 64px;
+}
+
+/* 
+-------------------- */
+.about02{
+	margin-bottom: 40px;
+}
+
+
+/* 
+-------------------- */
+.about05{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+/* 
+-------------------- */
+.about07{
+	margin-bottom: 80px;
+}
+
+/* 
+-------------------- */
+.slide{
+	width: 100%;
+}
+
+/* 
+-------------------- */
+.course_02{
+	display: flex;
+	justify-content: center;
+}
+
+
+/* 
+-------------------- */
+.course_02_img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* 
+-------------------- */
+.course_02_text{
+	background-color: lightgray;
+	align-items: center;
+	
+	/* width: 50%; */
+}
+
+/* } */
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
+
+
+/* 
+-------------------- */
+
+
+
+
+
+
